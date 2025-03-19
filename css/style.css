@@ -1,0 +1,118 @@
+
+body{
+text-align: center;
+background-color: rgb(159, 36, 38);
+}
+
+nav{
+    font-family: "IM Fell DW Pica", serif;
+    background-color: rgb(131, 189, 134);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a{ 
+    margin: 70px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+.apple{
+    display: inline-block;
+}
+#apple {
+    border: none;
+    width: 80px;
+    max-width: 100%;
+    box-shadow: none;
+    background: none;
+    height: auto;
+    display: flex;
+    margin-right: 30px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+h1{
+ font-family: "Ballet", serif;   
+ font-size: 80px;
+ color: white;
+ margin-top: 50px;
+ display: inline-block;
+ text-align: center;
+}
+
+h2{
+    font-family: "Emilys Candy", serif;
+    font-size:30px;
+    color: rgb(90, 54, 36);
+    font-weight: 500;
+}
+
+h3{ 
+    font-family: "Emilys Candy", serif;
+    font-size:30px;
+    color: rgb(90, 54, 36);
+
+}
+
+ul, ol{
+    font-family: "Zain", serif;
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 30px;
+}
+ul li a, ol li a{
+    font-family: "Zain", serif;
+    color: rgb(114, 177, 117);
+    text-shadow: 2px 1px rgb(75, 109, 63);
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 4px 4px rgb(65, 61, 45);
+}
+
+p{
+    font-family: "Zain", serif;
+    font-size: 20px;
+    margin: 5%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(236, 221, 226);
+    border: 3px double rgb(234, 199, 204);
+}
+
+.main{
+background-color: rgb(235, 242, 200);
+background-position: center;
+height: 90%;
+margin-left:20%;
+margin-right:20%;
+align-items: center;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 5%;
+border: 4px dashed rgb(192, 199, 154);
+}
+
+footer{
+    font-family: "Zain", serif; 
+}
+
+footer img{
+    border: none;
+    box-shadow: none;
+    width: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
