@@ -66,13 +66,17 @@ body {
    font-size: 200px;
 }
 
+.lyric1{
+   transition: opacity 1s;
+}
+
 .lyric2{
    
 }
 
 #Feels, #Good, #To, #Be, #Known, #Sowell{
    opacity: 0;
- transition: opacity 0.5s ease;  
+ transition: opacity 1s ease;  
 }
 
 #It:hover + #Feels,
@@ -127,10 +131,10 @@ body {
    transition-duration: .5s;
 }
 
-#I, #Cant, #Hide, #From, #Like, #I2, #Hide2, #From, #Myself{
+/* #I, #Cant, #Hide, #From, #Like, #I2, #Hide2, #From, #Myself{
    opacity: 0;
    transition-duration: .5s;
-}
+} */
 
 div{
    text-align: center; 
