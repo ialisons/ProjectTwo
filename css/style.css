@@ -11,85 +11,71 @@ html{
 body {
    width: 100%;
    min-height: 100;
-   background-color: beige;
+   background-color: rgb(57, 59, 169);
 }
 
 
 .First{
    font-family: "Dela Gothic One", sans-serif;
+   font-size: 30px;
    text-align: center;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translateX(-50%) translateY(-50%);
+   color: rgb(255, 255, 255);
 }
 
 
-/* .lyric1{
-   transition: opacity 1s;
+.lyric1{
 }
 
 
-#Feels, #Good, #To, #Be, #Known, #Sowell{
-   opacity: 0;
- transition: opacity 1s ease;  
-}
-
-#It:hover + #Feels,
-#Feels:hover + #Good,
-#Good:hover + #To,
-#To:hover + #Be, 
-#Be:hover + #Known,
-#Known:hover + #Sowell{
-   opacity: 1;
-} */
-
-#Feels, #Good, #To, #Be, #Known, #Sowell{
-   opacity: 0;
-}
-
-#It:Hover + #Feels{
-animation-name:reveal;
-animation-duration: 1s;
-opacity: 1;
-}
-
-#Feels:hover + #Good{
-
-}
-#Good:hover + #To{
-
-}
-#To:hover + #Be{
-
-}
-#Be:hover + #Known{
-
-}
-#Known:hover + #SoWell{
-
-}
-
-/* #Good{
+#It{
    animation-name:reveal;
    animation-duration: 1s;
+   animation-fill-mode: both;
+}
+
+#Feels{
+   animation-name:reveal;
+   animation-duration: 1s;
+   animation-delay: .5s;
+   animation-fill-mode: both;
+}
+
+
+#Good{
+   animation-name:reveal;
+   animation-duration: 1s;
+   animation-delay: 1s;
+   animation-fill-mode: both;
 }
 #To{
    animation-name:reveal;
    animation-duration: 1s;
+   animation-delay: 1.5s;
+   animation-fill-mode: both;
 }
 #Be{
    animation-name:reveal;
    animation-duration: 1s;
+   animation-delay: 2s;
+   animation-fill-mode: both;
+   
 }
 #Known{
    animation-name:reveal;
-   animation-duration: 1s;
+   animation-duration: 1.5s;
+   animation-delay: 3s;
+   animation-fill-mode: both;
 }
 #Sowell{
    animation-name:reveal;
-   animation-duration: 1s;
-} */
+   animation-duration: 1.5s;
+   animation-delay: 4s;
+   animation-fill-mode: both;
+}
 
 @keyframes reveal{
    from {opacity: 0;}
@@ -98,16 +84,17 @@ opacity: 1;
 
 #Known{
    font-family: "Reenie Beanie", cursive;
-   font-size: 30px;
+   font-size: 50px;
    text-decoration: none;
    color: rgb(183, 206, 235);
 }
 
+#Sowell:hover{
+   font-style: italic;
+}
 
-/* #I, #Cant, #Hide, #From, #Like, #I2, #Hide2, #From, #Myself{
-   opacity: 0;
-   transition-duration: .5s;
-} */
+
+
 
 div{
    text-align: center; 
