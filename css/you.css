@@ -11,29 +11,70 @@ html{
 body {
    width: 100%;
    min-height: 100;
-   background-color: beige;
+   background-color: rgb(41, 39, 58);
 }
 
 
 .Third{
    font-family: "Lexend", sans-serif;
-   font-size: 30px;
    text-align: center;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translateX(-50%) translateY(-50%);
+   color: rgb(22, 122, 245);
+   font-size: 40px;
 }
 
+.lyric3{
+   animation-name:away;
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   animation-delay: 2s;
+}
 
+@keyframes away{
+   from {opacity: 1;}
+   to {opacity: 0;}
+}
 
+#I3:hover,
+#I3:hover + #Remember, 
+#Remember:hover + #Who, 
+#Who:hover + #I4, 
+#I4:hover + #Am, 
+#Am:hover + #When, 
+#When:hover + #Im, 
+#Im:hover + #With, 
+#With:hover + #You2{
+   animation-name:reveal;
+   animation-duration: 1s;
+   animation-fill-mode: both;
+}
 
+@keyframes reveal{
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
 
 #I4{
    font-family: "Reenie Beanie", cursive;
-   font-size: 40px;
+   font-size: 60px;
    text-decoration: none;
-   color: rgb(183, 206, 235);
+   color: rgb(255, 255, 255);
+
+}
+
+#You2{
+   transition-duration: 1s;
+}
+
+#You2:hover{
+   color: rgb(255, 255, 255);
 }
 
 
