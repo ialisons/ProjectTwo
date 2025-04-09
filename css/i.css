@@ -15,18 +15,15 @@ body {
 }
 
 
-.First{
-   font-family: "Dela Gothic One", sans-serif;
+
+.Fourth, .Fifth{
+   font-family: "Reenie Beanie", cursive;
+   font-size: 40px;
    text-align: center;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translateX(-50%) translateY(-50%);
-}
-
-
-.lyric1{
-   transition: opacity 1s;
 }
 
 
@@ -45,18 +42,22 @@ body {
 }
 
 
-#Known{
-   font-family: "Reenie Beanie", cursive;
+#Tough{
+   font-family: "Dela Gothic One", sans-serif;
    font-size: 30px;
    text-decoration: none;
    color: rgb(183, 206, 235);
 }
 
+.lyric2{
+}
 
-/* #I, #Cant, #Hide, #From, #Like, #I2, #Hide2, #From, #Myself{
-   opacity: 0;
+#You:hover{
+   opacity: 1;
    transition-duration: .5s;
-} */
+}
+
+
 
 div{
    text-align: center; 

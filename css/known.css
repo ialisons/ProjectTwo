@@ -15,43 +15,43 @@ body {
 }
 
 
-.First{
-   font-family: "Dela Gothic One", sans-serif;
+.Second{
+   font-family: "Instrument Serif", serif;
+   font-size: 30px;
    text-align: center;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translateX(-50%) translateY(-50%);
+   opacity: 1;
 }
 
-
-.lyric1{
-   transition: opacity 1s;
+.lyric2{
+   
 }
-
 
 #Feels, #Good, #To, #Be, #Known, #Sowell{
    opacity: 0;
  transition: opacity 1s ease;  
 }
 
-#It:hover + #Feels,
-#Feels:hover + #Good,
-#Good:hover + #To,
-#To:hover + #Be, 
-#Be:hover + #Known,
-#Known:hover + #Sowell{
-   opacity: 1;
-}
 
 
-#Known{
+#You{
    font-family: "Reenie Beanie", cursive;
-   font-size: 30px;
+   font-size: 40px;
    text-decoration: none;
    color: rgb(183, 206, 235);
 }
 
+
+.lyric2{
+}
+
+#You:hover{
+   opacity: 1;
+   transition-duration: .5s;
+}
 
 /* #I, #Cant, #Hide, #From, #Like, #I2, #Hide2, #From, #Myself{
    opacity: 0;
