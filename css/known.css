@@ -52,7 +52,7 @@ body {
    animation-name:away;
    animation-duration: 1s;
    animation-fill-mode: both;
-   animation-delay: 2.5s;
+   animation-delay: 3s;
 }
 #You:hover{
    font-size: 110px;

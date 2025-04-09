@@ -53,6 +53,11 @@ body:hover{
    transition-duration: .2s;
 }
 
+h3{
+   font-family: "Reenie Beanie", cursive;
+   font-size: 20px;
+}
+
 div{
    text-align: center; 
 }
