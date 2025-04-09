@@ -25,7 +25,7 @@ body {
 }
 
 
-.lyric1{
+/* .lyric1{
    transition: opacity 1s;
 }
 
@@ -42,8 +42,59 @@ body {
 #Be:hover + #Known,
 #Known:hover + #Sowell{
    opacity: 1;
+} */
+
+#Feels, #Good, #To, #Be, #Known, #Sowell{
+   opacity: 0;
 }
 
+#It:Hover + #Feels{
+animation-name:reveal;
+animation-duration: 1s;
+opacity: 1;
+}
+
+#Feels:hover + #Good{
+
+}
+#Good:hover + #To{
+
+}
+#To:hover + #Be{
+
+}
+#Be:hover + #Known{
+
+}
+#Known:hover + #SoWell{
+
+}
+
+/* #Good{
+   animation-name:reveal;
+   animation-duration: 1s;
+}
+#To{
+   animation-name:reveal;
+   animation-duration: 1s;
+}
+#Be{
+   animation-name:reveal;
+   animation-duration: 1s;
+}
+#Known{
+   animation-name:reveal;
+   animation-duration: 1s;
+}
+#Sowell{
+   animation-name:reveal;
+   animation-duration: 1s;
+} */
+
+@keyframes reveal{
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
 
 #Known{
    font-family: "Reenie Beanie", cursive;
